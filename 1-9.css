@@ -8,27 +8,44 @@ header {
   height: 50px;
   background-color: #ff9a4b;
 }
-.main {
-  width: 100%;
-  height: auto;
-}
-.main-box {
+main {
   width: 960px;
   margin: 50px auto;
+  display: flex;
 }
-.main-box-item {
+.main-box {
   width: 300px;
-  height: auto;
+  margin-right: 30px;
   background-color: #eeeeee;
   padding: 10px;
+  position: relative;
 }
-.main-step {
+.step {
   background-color: #ff9a4b;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+
 }
-.main-image {
+.main-image1 {
   width: 280px;
   height: 150px;
   background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+}
+.main-image2 {
+  width: 280px;
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+}
+.main-image3 {
+  width: 280px;
+  height: 150px;
+  background-image: url(img/flow03.png);
   background-size: cover;
   background-position: bottom;
 }
