@@ -22,12 +22,18 @@ header {
   background-color: #eeeeee;
   padding: 10px;
 }
+.main-step {
+  background-color: #ff9a4b;
+}
 .main-image {
   width: 280px;
   height: 150px;
   background-image: url(img/flow01.png);
   background-size: cover;
   background-position: bottom;
+}
+.main-box-title {
+  margin: 15px 0 5px 0;
 }
 footer {
   width: 100%;
